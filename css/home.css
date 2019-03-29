@@ -2,6 +2,23 @@
   box-sizing: border-box;
 }
 
+.container-fluid-1 {
+  position: relative; 
+  /* Maximum width */
+  margin: 0 auto; /* Center it */
+ 
+  width: auto;
+}
+
+.container-fluid-1 .contentDemo-1 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
 /* Style the search field */
 form.example input[type=text] {
   padding: 10px;
@@ -12,6 +29,17 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
+/*style the banner */
+.bg{
+    background-color: black;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
 /* Style the submit button */
 form.example button {
   float: left;
@@ -35,4 +63,60 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-group{
+	
+}
+
+.search {
+  width: 100%;
+  height: auto;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 50px; /* search box size*/
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -60px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
