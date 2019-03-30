@@ -39,7 +39,9 @@ form.example input[type=text] {
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
+
 /* Style the submit button */
 form.example button {
   float: left;
@@ -100,7 +102,7 @@ body{
 .searchButton {
   position: absolute;  
   right: -60px;
-  width: 50px;
+  width: 100px;
   height: 50px;
   border: 1px solid #00B4CC;
   background: #00B4CC;
