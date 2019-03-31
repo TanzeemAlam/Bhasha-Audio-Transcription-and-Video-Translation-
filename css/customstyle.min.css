@@ -677,14 +677,14 @@ font-family: 'Righteous', cursive;
 }
 
 .itServices a:hover {
-    background-color: #cc338a;
+    background-color: #fae596;
     color: #fff;
     border: 0
 }
 
 .arrowServices {
     content: "";
-    background-color: #a82a71;
+    background-color: #fae596;
     width: 50%;
     margin: 10px auto 0 auto;
     height: 2px;
@@ -705,7 +705,7 @@ font-family: 'Righteous', cursive;
 }
 
 .headerQuote {
-    background-color: #d14795;
+    background-color: #173e43;
     background-image: url(../images/header-bg-parten.png);
     background-repeat: no-repeat;
     background-position: bottom right
@@ -784,12 +784,12 @@ font-family: 'Righteous', cursive;
 }
 
 .indexTopHeading .container-fluid {
-    background-color: #27ae61;
+    background-color: white;
     padding: 0
 }
 
 .indexTopHeading h1 {
-    background-color: #d14795;
+    background-color: #173e43;
     font-size: 30px;
     padding: 20px 0;
     text-align: center;
@@ -1352,7 +1352,7 @@ font-family: 'Righteous', cursive;
     color: #fff;
     top: 30%;
     right: 20%;
-    background-color: #3fb0ac;
+    background-color: #173e43;
     padding: 10px;
     border-radius: 20px
 }
