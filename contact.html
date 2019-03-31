@@ -53,7 +53,9 @@
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
                                     <ul class="navbar-nav">
-                                       
+                                        <div class="logo">
+                                            <a class="navbar-brand" href="home.html"><img src="images/b1.png" alt="bhasha Logo" style="width: 42%"></a>
+                                        </div>
                                         <li class="nav-item active dropdown changeDropdown">
 
                                             <a class="nav-link" href="home.html" id="webDevelopment" aria-haspopup="true" aria-expanded="false">Home</a>
@@ -77,7 +79,7 @@
                                                 <a class="nav-link" href="contact.html">Contact Us</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="About.html"">About Us</a>
+                                                <a class="nav-link" href="About.html">About Us</a>
                                             </li>
                                     </ul>
                                 </div>
@@ -91,68 +93,98 @@
         <!--End of Section topNav-->
 
 
-        <!-- serach bar -->
-        <div class="topHeaderIndex app_header android_header">
-         <div class="container-fluid-1">
-            	<img class="img-fluid" src="images/banner6.png" height="audio" width="200%" alt="bhasha">
-		<div class="wrap">
-             		<div class="search">
-    	 			<input type="text" class="searchTerm" placeholder="Paste the link here...!!!">
-                		<input type=button class="searchButton" onClick="location.href='video.html'" value='Convert'>
-			</div>
-		</div>
-            </div>
-        </div>
-
-
-        <!--seo_body-->
-        <div class="seo_body ios_body">
+        <!-- contact and banner image-->
+		 <!--banner images-->
+        <div class="contactBody">
             <div class="container-fluid">
+                <img class="img-responsive" src="images/contact-us.png" alt="bhasha contact us ">
+                <div class="contactHeaderContent">
+                    <h1>Contact Us - bhasha</h1>
+                    <h6> Customer Support : (+91)-12345678</h6>
+                </div>
+            </div>
+            <div class="container contactPara">
                 <div class="row">
-                    <!--including SEO sidebar loader-->
-                    <!--side bar for seo-->
-                    <div class="col-sm-12 col-md-12">
-                        <div class="seo_sidebar">
+                    <div class="col-sm-12 col-md-5">
+                        <div class="bhashaAddress">
+
+                            <h2><span>Contact</span></h2>
+                       
                             <div class="row">
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> Live Conversion</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"> <p>Our live Coversion feature is the <br> first step towards a personal universal<br>tanzeem is a good girl<br> <p>shirin is a good girl <br>tanya is a good girl<br>tanzeem is a good girl<br></p></p></a></li>
-                                       
-                                    </ul>
+                                <div class="col-sm-6">
+                                    <div class="details">
+                                        <span class="addrIcon"><i class="fa fa-envelope-o"></i></span>
+                                        <h3>info@bhasha.in</h3>
+                                        
+                                    </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> 2nd</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Video Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Audio Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> One Language to other language conversion</a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> 3rd</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Video Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Audio Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> One Language to other language conversion</a></li>
-
-                                    </ul>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="details">
+                                        <span class="addrIcon"><i class="fa fa-phone"></i></span>
+                                        <h3>+91-12345678</h3>
+                                        
+                                    </div>
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="details">
+                                        <span class="addrIcon"><i class="fa fa-facebook"></i></span>
+                                        <h3>Bhasha</h3>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-7">
+                        <div class="contactFrom">
+                            <h2>Expecting some extraordinarily quick results? Just let us know with a small query</h2>
+                            <div id="bhashaContactError" class="alert alert-danger bhashaContactError" style="display:none"></div>
+                            <div id="bhashaContactSuccess" class="alert alert-success bhashaContactSuccess" style="display:none"></div> 
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="fname">First Name</label>
+                                            <input type="text" class="form-control requireds" id="firstName" placeholder="Enter Your First Name" name="fname">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="fname">Last Name</label>
+                                            <input type="text" class="form-control" id="companyName" placeholder="Enter Your Last Name" name="lname">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="emailID">Email Id</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter Your Email Id" name="emailId">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group whtsWrapper">
+                                            <label for="mobileno">Mobile Number</label>
+                                            <input type="number" class="form-control requireds" id="mobileno" placeholder="Enter Your Mobile No" name="mnumber">
+                                            <i class="fa fa-whatsapp"></i>
+                                        </div>
+                                    </div>
+                  
+      
 
-                </div>
-            </div>
+      
             
             <!--including footer-->
             <section class="foo">
                 <footer>
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12 col-md-3">
+                                                    <div class="col-sm-12 col-md-3">
+
                                 <div class="foo-col">
                                     <h3>Products</h3>
                                     <ul class="foo_ul">
@@ -207,7 +239,7 @@
                         <div class="col-sm-12 col-md-3">
                             <h4> Follow Us </h4>
                         </div>
-                        <div class="col-sm-12 col-md-8">
+                        <div class="col-sm-12 col-md-12">
                             <div class="social_body">
                                 <ul>
                                     <li><a href="" target="_blank" rel="noopener" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -522,5 +554,6 @@
             </script>
     </body>
 
+    <!-- Mirrored from www.bhasha.com/ios-app-development by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jul 2018 11:26:34 GMT -->
 
 </html>

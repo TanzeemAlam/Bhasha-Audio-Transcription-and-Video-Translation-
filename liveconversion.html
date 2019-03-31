@@ -53,7 +53,9 @@
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
                                     <ul class="navbar-nav">
-                                       
+                                        <div class="logo">
+                                            <a class="navbar-brand" href="home.html"><img src="images/b1.png" alt="bhasha Logo" style="width: 42%"></a>
+                                        </div>
                                         <li class="nav-item active dropdown changeDropdown">
 
                                             <a class="nav-link" href="home.html" id="webDevelopment" aria-haspopup="true" aria-expanded="false">Home</a>
@@ -77,7 +79,7 @@
                                                 <a class="nav-link" href="contact.html">Contact Us</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="About.html"">About Us</a>
+                                                <a class="nav-link" href="About.html">About Us</a>
                                             </li>
                                     </ul>
                                 </div>
@@ -91,60 +93,36 @@
         <!--End of Section topNav-->
 
 
-        <!-- serach bar -->
-        <div class="topHeaderIndex app_header android_header">
-         <div class="container-fluid-1">
-            	<img class="img-fluid" src="images/banner6.png" height="audio" width="200%" alt="bhasha">
-		<div class="wrap">
-             		<div class="search">
-    	 			<input type="text" class="searchTerm" placeholder="Paste the link here...!!!">
-                		<input type=button class="searchButton" onClick="location.href='video.html'" value='Convert'>
-			</div>
-		</div>
-            </div>
-        </div>
+        
+		 <!--conversion -->
+        <div class="livebody">
+             <div class="liveHeaderContent">
+                    <div id="wrapper">
+  <div class="container2">
+    <div class="col">
+      <textarea class="text-to-translate" placeholder="Text to translate"></textarea>
 
+      <select class="source-lang">
+        <option selected disabled>Source</option>
+      </select>
+      <select class="target-lang">
+        <option selected disabled>Target</option>
+      </select>
 
-        <!--seo_body-->
-        <div class="seo_body ios_body">
-            <div class="container-fluid">
-                <div class="row">
-                    <!--including SEO sidebar loader-->
-                    <!--side bar for seo-->
-                    <div class="col-sm-12 col-md-12">
-                        <div class="seo_sidebar">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> Live Conversion</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"> <p>Our live Coversion feature is the <br> first step towards a personal universal<br>tanzeem is a good girl<br> <p>shirin is a good girl <br>tanya is a good girl<br>tanzeem is a good girl<br></p></p></a></li>
-                                       
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> 2nd</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Video Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Audio Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> One Language to other language conversion</a></li>
+      <button class="translate">Translate</button>
+      <button class="detect">Detect Language</button>
+    </div>
 
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <h3><i class="fa fa-eye fa-lg"></i> 3rd</h3>
-                                    <ul class="seo_ul">
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Video Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> Audio Conversion</a></li>
-                                        <li><a href="#"><i class="fa fa-desktop"></i> One Language to other language conversion</a></li>
+    <div class="col">
+      <h2 class="translation-heading">Translation</h2>
+      <h2 class="detection-heading">Detected Language</h2>
+      <p class="target"></p>
 
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
+    </div>
+  </div>
+</div>
                 </div>
+           
             </div>
             
             <!--including footer-->
@@ -152,7 +130,8 @@
                 <footer>
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12 col-md-3">
+                           <div class="col-sm-12 col-md-3">
+
                                 <div class="foo-col">
                                     <h3>Products</h3>
                                     <ul class="foo_ul">
@@ -309,6 +288,7 @@
             <!--<script src="js/jquery.min.js" type="text/javascript"></script>-->
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <script src="js/customscript.min.js" type="text/javascript"></script>
+			<script src="js/liveconversion.js" type="text/javascript"></script>
             <script type="text/javascript">
                 $("#myButton").click(function() {
 
