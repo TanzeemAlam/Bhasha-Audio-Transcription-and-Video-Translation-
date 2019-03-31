@@ -799,7 +799,7 @@ font-family: 'Righteous', cursive;
 }
 
 .headerClient {
-    background-image: url(../dummyimages/bg-counter-1.jpg);
+    background-image: url(../dummyimages/bg-counter-1.bhasha);
     background-repeat: no-repeat;
     background-position: bottom center
 }
@@ -1458,7 +1458,7 @@ font-family: 'Righteous', cursive;
 
 .contactBody button {
     cursor: pointer;
-    background-color: #b62f7c;
+    background-color: #3fb0ac;
     color: #fff;
     font-size: 20px;
     padding: 10px 20px;
@@ -1671,7 +1671,7 @@ font-family: 'Righteous', cursive;
 }
 
 .products {
-    background-image: url(../dummyimages/erp-services.jpg);
+    background-image: url(../dummyimages/erp-services.bhasha);
     width: 100%;
     height: 700px;
     color: #ccc;
@@ -1797,7 +1797,7 @@ font-family: 'Righteous', cursive;
 }
 
 .flexHeader {
-    background-image: url(../images/printing-head.jpg);
+    background-image: url(../images/printing-head.bhasha);
     background-repeat: no-repeat;
     background-position: left top;
     height: 550px;
@@ -2113,7 +2113,7 @@ font-family: 'Righteous', cursive;
 }
 
 .flexReview .flexReviewOverlay {
-    background: #212121 url(../images/flex-review.jpg) center center no-repeat fixed;
+    background: #212121 url(../images/flex-review.bhasha) center center no-repeat fixed;
     background-size: cover;
     position: absolute;
     top: 60px;
@@ -2175,7 +2175,7 @@ font-family: 'Righteous', cursive;
 }
 
 .hrms {
-    background-image: url(../images/HRMS-Solution.jpg);
+    background-image: url(../images/HRMS-Solution.bhasha);
     background-repeat: no-repeat;
     background-position: center center;
     height: 440px;
@@ -2363,7 +2363,7 @@ font-family: 'Righteous', cursive;
 }
 
 .ims {
-    background-image: url(../images/warehouse-inventory.jpg);
+    background-image: url(../images/warehouse-inventory.bhasha);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -2443,7 +2443,7 @@ font-family: 'Righteous', cursive;
 
 .travelHeader {
     background-repeat: no-repeat;
-    background-image: url(../images/travel-website-development.jpg);
+    background-image: url(../images/travel-website-development.bhasha);
     background-size: cover;
     background-position: center bottom;
     width: 100%;
