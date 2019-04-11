@@ -65,31 +65,39 @@
 	<!--Google text translation module-->
 	<script src="/home/tanzeemalam/Desktop/Bhasha-Audio-Transcription-and-Video-Translation--master/Translator.js"> </script>
 	<script>		
-		var config = {
-			    	from: 'en',
-			    	to: 'fr',
-			    api_key: 'AIzaSyCjTI4h-XeiKnEfnwEdoC3SgssP3qYuoVg', // use your own key
-			    callback: function (translatedText) {
+		function getLanguages() {
+			var from = document.getElementById('convert-from').value.split(' (')[0];
+		    	var to = document.getElementById('convert-into').value.split(' (')[0];
+			console.log(from);
+			console.log(to);
+		    
+			return {
+				from: from,
+				to: to
+			};
+        	}
+
+		function fun() {
+			
+			var textareaFrom = document.getElementById('textarea-from').value;
+			console.log(textareaFrom);
+			
+			var languages = getLanguages();
+			
+
+			var translator = new Translator();
+			console.log("in function");
+			translator.translateLanguage(textareaFrom, {
+				from: languages.from,
+			    	to: languages.to,
+			    	api_key: 'AIzaSyCjTI4h-XeiKnEfnwEdoC3SgssP3qYuoVg', // use your own key
+			    	callback: function (translatedText) {
 				console.log('translated text', translatedText);
 				document.getElementById('textarea-to').value = translatedText;
 				// here you can use "speakTextUsingRobot"
 				// see below sections
-			    }
-			};
-		function fun(){
-			
-			var convertFrom = document.getElementById('convert-from').value.split(' (')[0];
-			console.log(convertFrom);
-			
-		     	var convertInto = document.getElementById('convert-into').value.split(' (')[0];
-			console.log(convertInto);
-			
-			var textareaFrom = document.getElementById('textarea-from').value;
-			console.log(textareaFrom);
-
-			var translator = new Translator();
-			console.log("in function");
-			translator.translateLanguage(textareaFrom, config);
+			    }		
+			});
 		}
 	</script>
 
@@ -223,7 +231,7 @@
             
             <br><br>
             <textarea id="textarea-from"></textarea><br>
-            <button id="btn-convert-text" style="font-size: 16px;" onclick='fun()'>Convert Your Text Input</button><br>
+            <button id="btn-convert-text" style="font-size: 16px;" onClick='fun()'>Convert Your Text Input</button><br>
             <!--<button id="btn-convert-voice" style="font-size: 16px;">Speak & Convert Your Voice</button>-->
         </section>
         
@@ -278,10 +286,10 @@
 
             <br>
 
-            <input type="checkbox" id="robot-voice" title="A client-side robot that can speak your voice in target language!" style="vertical-align: middle;">
+            <!--<input type="checkbox" id="robot-voice" title="A client-side robot that can speak your voice in target language!" style="vertical-align: middle;">
 
             <label for="robot-voice" style="vertical-align: middle;" title="Use robot to play translated texts">Robot Speaker?</label>
-
+		-->
             </section>
 
             </section>
@@ -452,7 +460,7 @@
             <!--<script src="js/jquery.min.js" type="text/javascript"></script>-->
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <script src="js/customscript.min.js" type="text/javascript"></script>
-			<script src="js/liveconversion.js" type="text/javascript"></script>
+			<!--<script src="js/liveconversion.js" type="text/javascript"></script>-->
 
 		<script type="text/javascript" src="Translator.js"></script>
             <script type="text/javascript">
