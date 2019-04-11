@@ -61,6 +61,38 @@
                 padding: 0 5px!important;
             }
         </style>
+
+	<!--Google text translation module-->
+	<script src="/home/tanzeemalam/Desktop/Bhasha-Audio-Transcription-and-Video-Translation--master/Translator.js"> </script>
+	<script>		
+		var config = {
+			    	from: 'en',
+			    	to: 'fr',
+			    api_key: 'AIzaSyCjTI4h-XeiKnEfnwEdoC3SgssP3qYuoVg', // use your own key
+			    callback: function (translatedText) {
+				console.log('translated text', translatedText);
+				document.getElementById('textarea-to').value = translatedText;
+				// here you can use "speakTextUsingRobot"
+				// see below sections
+			    }
+			};
+		function fun(){
+			
+			var convertFrom = document.getElementById('convert-from').value.split(' (')[0];
+			console.log(convertFrom);
+			
+		     	var convertInto = document.getElementById('convert-into').value.split(' (')[0];
+			console.log(convertInto);
+			
+			var textareaFrom = document.getElementById('textarea-from').value;
+			console.log(textareaFrom);
+
+			var translator = new Translator();
+			console.log("in function");
+			translator.translateLanguage(textareaFrom, config);
+		}
+	</script>
+
 </head>
 
     <body>
@@ -191,7 +223,7 @@
             
             <br><br>
             <textarea id="textarea-from"></textarea><br>
-            <button id="btn-convert-text" style="font-size: 16px;">Convert Your Text Input</button><br>
+            <button id="btn-convert-text" style="font-size: 16px;" onclick='fun()'>Convert Your Text Input</button><br>
             <!--<button id="btn-convert-voice" style="font-size: 16px;">Speak & Convert Your Voice</button>-->
         </section>
         
@@ -242,7 +274,7 @@
                     </select>
             
             <br><br>
-            <textarea id="textarea-to" disabled style="background: #f9f9f9!important;border: 1px solid #f7f1f1;cursor: not-allowed;" title="Output! ReadOnly!"></textarea>
+            <textarea id="textarea-to" style="background: #f9f9f9!important;border: 1px solid #f7f1f1;cursor: not-allowed;" title="Output! ReadOnly!"></textarea>
 
             <br>
 
@@ -636,9 +668,10 @@
             </script>
 
 		<!--Script files that is used with the above conversion-->
-		<script src="https://cdn.webrtc-experiment.com/Translator.js"></script>
+		<!--<script src="https://cdn.webrtc-experiment.com/Translator.js"></script>-->
     
-    <script>
+    <!--<script>
+	
         var translator = new Translator();
         function getOption(language) {
             var option = document.createElement('option');
@@ -772,14 +805,11 @@
             }
         }
         localStorageGetItem();
-    </script>
-
-    <!-- commits.js is useless for you! -->
-    <script>
-        window.useThisGithubPath = 'muaz-khan/Translator';
-    </script>
-    <script src="https://cdn.webrtc-experiment.com/commits.js" async> </script>
+	
+    </script>-->
+	
     
+	  
 </body>
 
 

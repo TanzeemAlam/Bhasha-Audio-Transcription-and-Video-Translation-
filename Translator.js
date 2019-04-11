@@ -44,7 +44,7 @@ function Translator() {
     this.translateLanguage = function(text, config) {
         config = config || { };
         // please use your own API key; if possible
-        var api_key = 'AIzaSyBIep-iJVCDtL5QEylszJ7l7xJkI3UVB7Y';
+        var api_key = config.api_key || Google_Translate_API_KEY;
 
         var newScript = document.createElement('script');
         newScript.type = 'text/javascript';
@@ -239,5 +239,5 @@ function Translator() {
         }
     };
     
-    var Google_Translate_API_KEY = 'AIzaSyBIep-iJVCDtL5QEylszJ7l7xJkI3UVB7Y';
+    var Google_Translate_API_KEY = 'AIzaSyCjTI4h-XeiKnEfnwEdoC3SgssP3qYuoVg';
 }
