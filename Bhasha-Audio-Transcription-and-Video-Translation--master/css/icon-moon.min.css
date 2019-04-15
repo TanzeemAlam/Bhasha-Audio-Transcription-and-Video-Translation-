@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon1827.html?1sbh8d');
+    src: url('../fonts/icomoon1827.html?1sbh8d#iefix') format('embedded-opentype'), url('../fonts/icomoon1827.ttf?1sbh8d') format('truetype'), url('../fonts/icomoon1827.woff?1sbh8d') format('woff'), url('../fonts/icomoon1827-2.html?1sbh8d#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-price-house:before {
+    content: "\e908"
+}
+
+.icon-rent:before {
+    content: "\e909"
+}
+
+.icon-painting:before {
+    content: "\e90a"
+}
+
+.icon-safe-house:before {
+    content: "\e90b"
+}
+
+.icon-user-add:before {
+    content: "\e90c"
+}
+
+.icon-vertification:before {
+    content: "\e90d"
+}
+
+.icon-worldmap:before {
+    content: "\e90e"
+}
+
+.icon-mapmarker:before {
+    content: "\e90f";
+    color:#e085b9;
+
+}
+
+.icon-decotitle:before {
+    content: "\e910";
+    color:#8f2460;
+}
+
+.icon-ruler:before {
+    content: "\e900"
+}
+
+.icon-bed:before {
+    content: "\e901"
+}
+
+.icon-bath:before {
+    content: "\e902"
+}
+
+.icon-storage:before {
+    content: "\e903"
+}
+
+.icon-brick:before {
+    content: "\e904"
+}
+
+.icon-pool:before {
+    content: "\e905"
+}
+
+.icon-floor:before {
+    content: "\e906"
+}
+
+.icon-compass:before {
+    content: "\e907"
+}
