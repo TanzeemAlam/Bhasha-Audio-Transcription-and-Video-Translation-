@@ -1,0 +1,374 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.280
+I want to solve some problems from
+
+2
+00:00:02.280 --> 00:00:04.470
+section 9.3 and remember these were the
+
+3
+00:00:04.470 --> 00:00:07.799
+problems that will be on your final but
+
+4
+00:00:07.799 --> 00:00:10.610
+we're not on any of the earlier tip
+
+5
+00:00:10.610 --> 00:00:14.280
+third problem says 5% of the area under
+
+6
+00:00:14.280 --> 00:00:15.900
+a normal curve between the mean and
+
+7
+00:00:15.900 --> 00:00:17.400
+given number of standard deviations
+
+8
+00:00:17.400 --> 00:00:21.150
+front of me and this is problem number
+
+9
+00:00:21.150 --> 00:00:26.189
+158 actually from the practice final and
+
+10
+00:00:26.189 --> 00:00:29.070
+we wanted to point eight three standard
+
+00:00:29.070 --> 00:00:31.109
+deviations from the mean now when it
+
+00:00:31.109 --> 00:00:34.820
+says standard deviations from the mean
+
+00:00:35.030 --> 00:00:37.739
+you know you're working with a Z value
+
+00:00:37.739 --> 00:00:41.160
+the Z's those z-scores our stamp
+
+00:00:41.160 --> 00:00:43.739
+measures a standard deviation from the
+
+00:00:43.739 --> 00:00:46.469
+mean now you don't necessarily have to
+
+00:00:46.469 --> 00:00:53.100
+draw a picture but in my mind it'll be a
+
+00:00:53.100 --> 00:00:55.050
+lot clearer make a lot more sense if you
+
+00:00:55.050 --> 00:00:58.469
+do you have a normal curve and you're
+
+00:00:58.469 --> 00:01:00.180
+measuring standard deviations from the
+
+00:01:00.180 --> 00:01:03.830
+mean now for a standard normal
+
+00:01:03.830 --> 00:01:08.240
+those Z values of Z scores the mean is
+
+00:01:08.240 --> 00:01:13.920
+always zero that's the mean so you want
+
+00:01:13.920 --> 00:01:18.140
+it to be point eight three twenty three
+
+00:01:18.140 --> 00:01:22.280
+let's say is here
+
+00:01:27.170 --> 00:01:28.820
+and we wanted to be point eight three
+
+00:01:28.820 --> 00:01:32.060
+best to the right standard deviations
+
+00:01:32.060 --> 00:01:32.690
+from the mean
+
+00:01:32.690 --> 00:01:34.550
+remember the Z values are measured in
+
+00:01:34.550 --> 00:01:37.720
+standard deviation so point three means
+
+00:01:37.720 --> 00:01:41.330
+less than one standard deviation from
+
+00:01:41.330 --> 00:01:43.729
+the mean so what we're actually looking
+
+00:01:43.729 --> 00:01:47.920
+for is that area that I've shaded here a
+
+00:01:50.590 --> 00:01:56.720
+little better than that maybe also keep
+
+00:01:56.720 --> 00:02:00.640
+in mind at the table that you're using
+
+00:02:00.640 --> 00:02:04.399
+to look these things up give values to
+
+00:02:04.399 --> 00:02:10.399
+the left so for example here looking at
+
+00:02:10.399 --> 00:02:13.130
+these table values if you ever forget
+
+00:02:13.130 --> 00:02:15.950
+that the whether they measure to the
+
+00:02:15.950 --> 00:02:17.450
+left of the ride you can look at the
+
+00:02:17.450 --> 00:02:19.640
+table itself it shades in area to the
+
+00:02:19.640 --> 00:02:22.010
+left of a particular Z value so in this
+
+00:02:22.010 --> 00:02:24.769
+table the values are always the area
+
+00:02:24.769 --> 00:02:29.600
+under the curve from negative infinity
+
+00:02:29.600 --> 00:02:31.370
+all the way up to the V Bay in other
+
+00:02:31.370 --> 00:02:34.150
+words to the left
+
+00:02:39.790 --> 00:02:41.430
+and when I look up
+
+00:02:41.430 --> 00:02:43.290
+point eight three in that table it's
+
+00:02:43.290 --> 00:02:45.959
+gonna give me the value from point eight
+
+00:02:45.959 --> 00:02:47.909
+three all the way back and that's not
+
+00:02:47.909 --> 00:02:50.640
+what I want but if I look up zero it's
+
+00:02:50.640 --> 00:02:52.260
+going to give me the value from here on
+
+00:02:52.260 --> 00:02:54.540
+back and if I subtract the two it's
+
+00:02:54.540 --> 00:02:56.189
+going to give me the value in between in
+
+00:02:56.189 --> 00:02:58.709
+other words just as we talked about in
+
+00:02:58.709 --> 00:03:01.680
+class when you're finding the area
+
+00:03:01.680 --> 00:03:11.129
+between two Z values you simply take the
+
+00:03:11.129 --> 00:03:14.129
+bigger number the one to the right and
+
+00:03:14.129 --> 00:03:16.620
+look up the probability to this less
+
+00:03:16.620 --> 00:03:20.099
+than that from the table and then you
+
+00:03:20.099 --> 00:03:22.530
+take up take the rightmost number I'm
+
+00:03:22.530 --> 00:03:24.180
+excuse me the leftmost number which in
+
+00:03:24.180 --> 00:03:30.329
+this case is zero and subtract the two
+
+00:03:30.329 --> 00:03:33.209
+so the probability Z is less than point
+
+00:03:33.209 --> 00:03:35.040
+eight three is all the way back here the
+
+00:03:35.040 --> 00:03:36.689
+probability Z is less than zero is here
+
+00:03:36.689 --> 00:03:38.549
+and she's subtract the two you get in
+
+00:03:38.549 --> 00:03:40.590
+between so what you need to remember is
+
+00:03:40.590 --> 00:03:43.200
+that when you're finding the value the
+
+00:03:43.200 --> 00:03:45.599
+probability of Z being between two
+
+00:03:45.599 --> 00:03:47.849
+numbers you take the bigger number look
+
+00:03:47.849 --> 00:03:49.590
+it up in the table smaller never look at
+
+00:03:49.590 --> 00:03:52.560
+the table subtract the two result well
+
+00:03:52.560 --> 00:03:55.139
+let's do that now keep in mind at the
+
+00:03:55.139 --> 00:03:56.579
+table I'm going to bring him a little
+
+00:03:56.579 --> 00:03:58.500
+tighter so you can see these numbers a
+
+00:03:58.500 --> 00:04:01.250
+little better I hope
+
+00:04:11.319 --> 00:04:13.319
+Oh
+
+00:04:19.519 --> 00:04:22.550
+I'm looking up 0.83 well those are
+
+00:04:22.550 --> 00:04:25.220
+negatives so I want to go to the other
+
+00:04:25.220 --> 00:04:29.569
+page those are negative now looking at
+
+00:04:29.569 --> 00:04:36.800
+0.83 so you go down to 0.8 which is this
+
+00:04:36.800 --> 00:04:40.190
+row and you're going to 0.8 3 the first
+
+00:04:40.190 --> 00:04:41.990
+column if you look at the top starts
+
+00:04:41.990 --> 00:04:44.960
+with 0 0 1 2 3 all the way so if you're
+
+00:04:44.960 --> 00:04:48.470
+looking at point 8 3 then you go to the
+
+00:04:48.470 --> 00:04:52.970
+point 8 row and go 0 1 2 3 so if you get
+
+00:04:52.970 --> 00:04:55.460
+this number right here point nine point
+
+00:04:55.460 --> 00:04:58.310
+seven nine six seven point seven nine
+
+00:04:58.310 --> 00:05:05.330
+six seven remember you got that in the
+
+00:05:05.330 --> 00:05:07.759
+table by looking up the rightmost number
+
+00:05:07.759 --> 00:05:10.190
+then you look up the leftmost number
+
+00:05:10.190 --> 00:05:12.409
+which is 0 you go to the table look
+
+00:05:12.409 --> 00:05:18.460
+again well 0 0 is right here is point 5
+
+00:05:18.460 --> 00:05:22.570
+so the probability that Z is less than 0
+
+00:05:22.570 --> 00:05:30.349
+is point 5 and subtract and you end up
+
+00:05:30.349 --> 00:05:33.110
+with if you do that subtraction point
+
+00:05:33.110 --> 00:05:37.520
+two nine six seven they ask for the
+
+00:05:37.520 --> 00:05:40.340
+percent of the area so if you want to
+
+00:05:40.340 --> 00:05:42.969
+change that to a percent that would be
+
+00:05:42.969 --> 00:05:47.120
+twenty nine point six seven percent
+
+00:05:47.120 --> 00:05:48.469
+remember we changed something to a
+
+00:05:48.469 --> 00:05:49.940
+percentage you move the decimal two
+
+00:05:49.940 --> 00:05:52.000
+places to the right
+
+00:05:52.000 --> 00:05:56.259
+so before I forgot the pen back
+
+00:05:57.589 --> 00:06:01.039
+so as it turns out about twenty nine
+
+00:06:01.039 --> 00:06:02.989
+point six seven percent of the area is
+
+00:06:02.989 --> 00:06:06.189
+between those two values
+
+00:06:06.189 --> 00:06:09.859
+simple enough also I would say this
+
+00:06:09.859 --> 00:06:12.199
+without saying you have to do it this
+
+00:06:12.199 --> 00:06:14.449
+way when you're using Z values and you
+
+00:06:14.449 --> 00:06:17.439
+get a zero it's always going to be 0.5
+
+00:06:17.439 --> 00:06:19.249
+regardless of whether you look at the
+
+00:06:19.249 --> 00:06:22.249
+table or not because the standard normal
+
+00:06:22.249 --> 00:06:24.169
+has a mean of zero in a symmetric half
+
+00:06:24.169 --> 00:06:25.699
+the areas to the left and half there is
+
+00:06:25.699 --> 00:06:27.619
+the right so I knew as soon as I saw
+
+00:06:27.619 --> 00:06:30.319
+this zero right here that the
+
+00:06:30.319 --> 00:06:32.659
+probability uncollected point five yeah
+
+00:06:32.659 --> 00:06:34.009
+you can still look it up if you don't
+121
+00:06:34,009 --> 00:00:00,000
+want to remember that
