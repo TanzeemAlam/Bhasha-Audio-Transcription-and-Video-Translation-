@@ -206,6 +206,12 @@ body{
   color: white;
 }
 
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 /*for product*/
 .container-fluid2,.container-fluid3, .container-fluid4{
 	background: #fff;
