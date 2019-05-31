@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+.container2 {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #3fb0ac;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+  
+  .col {
+    display: inline-block;
+    width: 46%;
+    margin: 0 1%;
+    vertical-align: top;
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  select {
+    width: 49%;
+    margin-top: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    
+    &.translate {
+      background: green;
+    }
+    &.detect {
+      background: blue;
+    }
+  }
+  
+  h2 {
+    display: none;
+    margin: 0;
+  }
+  
+  p.target {
+    display: none;
+    margin-top: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+}
+.container-fluid-1 {
+  position: relative; 
+  /* Maximum width */
+  margin: 0 auto; /* Center it */
+ 
+  width: auto;
+}
+
+.container-fluid-1 .contentDemo-1 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/*style the banner */
+.bg{
+    background-color: black;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: purple;
+  background: purple;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: pink;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-group{
+	
+}
+
+.search {
+  width: 100%;
+  height: auto;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #3fb0ac;
+  padding: 5px;
+  height: 50px; /* search box size*/
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -60px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #3fb0ac;
+  background: #3fb0ac;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/*for product*/
+.container-fluid2,.container-fluid3, .container-fluid4{
+	background: #fff;
+    padding: 40px 10px;
+    border: 1px solid #fafafa;
+    min-height: 500px;
+    box-shadow: 0 0 30px 5px #ccc;
+}
