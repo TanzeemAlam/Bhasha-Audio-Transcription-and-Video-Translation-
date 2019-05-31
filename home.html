@@ -8,7 +8,7 @@
 
 <head>
     
-    <title>Bhasha/title>
+    <title>Bhasha | Home</title>
 	
     <!--ALL CSS FILES-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
     <link href="css/customstyle.min.css" rel="stylesheet" type="text/css">
     <link href="css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="css/home.css" rel="stylesheet" type="text/css">
- <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!--Google Fonts.-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700|Open+Sans" rel="stylesheet">
 
@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
                             <ul class="_unorderedList topUL pull-right">
-                                <li><a href="tel:08797317269"><i class="fa fa-phone" style="color:#fae596"></i><span class="first-word">Call :</span> (+91)-1234567</a></li>
+                                <li><a href="tel:08797317269"><i class="fa fa-phone" style="color:#fae596"></i><span class="first-word">Call :</span> (+91)-9953254088</a></li>
                                 <li><a href="mailto:info@bhasha.in"><i class="fa fa-envelope" style="color:#fae596"></i><span class="first-word">Email :</span> info@bhasha.in</a></li>
 
                                 <li>
@@ -53,6 +53,11 @@
                                     <a class="navbar-brand" href="home.html"><img src="images/b1.png" alt="bhasha Logo" style="width: 43%" "height:40&"></a>
                                 </div>
 
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
                                     <ul class="navbar-nav">
@@ -64,13 +69,15 @@
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="products" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
                                                 <div class="dropdown-menu" aria-labelledby="products">
-                                                    <a class="dropdown-item" href=""><i class="fa fa-vcard-o"></i>video conversion</a>
-                                                    <a class="dropdown-item" href=""><i class="fa fa-handshake-o"></i>audio conversion</a>
+                                                    <a class="dropdown-item" href="pvc.html"><i class="fa fa-play" style= "color:#fae596;"></i>video conversion</a>
+                                                    <a class="dropdown-item" href="pac.html"><i class="fa fa-audio-description" style= "color:#fae596;"></i>audio conversion</a>
+											        <a class="dropdown-item" href="plc.html"><i class="fa fa-file-text" style= "color:#fae596;"></i>live text conversion</a>
+
 
                                                 </div>
                                             </li>
                                             <li class="nav-item dropdown">
-<a class="nav-link " href="Whyus.html">Why us</a>
+                                            <a class="nav-link " href="Whyus.html">Why us</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="service.html">Services</a>
@@ -96,11 +103,11 @@
         <!-- serach bar -->
         <div class="topHeaderIndex app_header android_header">
          <div class="container-fluid-1">
-            	<img class="img-fluid" src="images/banner6.png" height="audio" width="200%" alt="bhasha">
+            	<img id="myimg" class="img-fluid" src="images/banner6.png" height="audio" width="200%" alt="bhasha">
 		<div class="wrap">
              		<div class="search">
-    	 			<input type="text" class="searchTerm" placeholder="Paste the link here...!!!">
-                		<input type=button class="searchButton" onClick="location.href='video.html'" value='Convert'>
+    	 			<input id="convertInput" type="text" class="searchTerm" placeholder="Paste the link here...!!!">
+                		<input id="convertButton" type=button class="searchButton" onclick="window.location.href='video.html'" value='Convert'>
 			</div>
 		</div>
             </div>
@@ -112,7 +119,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h4>We transform your video/audio into other language  with new-wave technologies and suffice you with world class services and solutions.</h4>
+                        <h4>We transform your video/audio into other language  with google cloud technologies and suffice you with world class services and solutions.</h4>
                     </div>
                 </div>
             </div>
@@ -130,21 +137,21 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
                         <div class="itServices">
-                            <img class="img-fluid" alt="Live Conversion" src="images/h1.png" width="260px" height="200px" >
-                            <h2>Live Conversion</h2>
+                            <img class="img-fluid" alt="Live Conversion" src="images/plc.jpg" width="260px" height="200px" >
+                            <h2>Live Text Conversion</h2>
                             <span class="arrowServices"></span>
-                            <p>Live Conversion is used to translate the text from one anguage to another languages in  <b>"Real time"</b> .</p>
-                            <a href="liveconversion.html">Live Conversion</a>
+                            <p>Live Text Conversion is used to translate the text from one anguage to another languages in  <b>"Real time"</b> .</p>
+                            <a href="liveconversion.html">Live Text Conversion</a>
                         </div>
                     </div>
                   
                     <div class="col-sm-12 col-md-4">
                         <div class="itServices">
-                            <img class="img-fluid" alt="Audio Conversion" src="images/h4.png"  width="260px" height="200px">
+                            <img class="img-fluid" alt="Audio Conversion" src="images/pac.png"  width="260px" height="200px">
                             <h2>Audio Conversion</h2>
                             <span class="arrowServices"></span>
-                            <p>Audio Conversion tranlates the video from one from one anguage to another languages .</p><br>
-                            <a href="#">Audio Conversion</a>
+                            <p>Audio Conversion tranlates the video from one from one anguage to another languages .</p>
+                            <a href="home.html">Audio Conversion</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -153,7 +160,7 @@
                             <h2>Video Conversion</h2>
                             <span class="arrowServices"></span>
                             <p>It tranlate the video from one from one anguage to another languages  with subtitles.</p>
-                            <a href="#">Video Conversion</a>
+                            <a href="video.html">Video Conversion</a>
                         </div>
                     </div>
                 </div>
@@ -178,9 +185,9 @@
                                 <div class="foo-col">
                                     <h3>Products</h3>
                                     <ul class="foo_ul">
-                                        <li><a href="#">About product</a></li>
-                                        <li><a href="#"> Software and hardware used in bhasha.com</a></li>
-                                        <li><a href="#"> Other information</a></li>
+                                        <li><a href="aboutprouct.html">About product</a></li>
+                                        <li><a href="#">Software and hardware used in bhasha.com</a></li>
+                                        <li><a href="#">Other information</a></li>
 
                                     </ul>
                                 </div>
@@ -189,8 +196,8 @@
                                 <div class="foo-col">
                                     <h3>Video Conversion</h3>
                                     <ul class="foo_ul">
-                                        <li><a href="#">Concept for video conversion</a></li>
-                                        <li><a href="#">Technique used in video conversion</a></li>
+                                        <li><a href="pvc.html">Concept for video conversion</a></li>
+                                        <li><a href="techv.html">Technique used in video conversion</a></li>
 
                                     </ul>
 
@@ -202,8 +209,8 @@
                                 <ul class="foo_ul">
                                     <h3>Audio Conversion</h3>
                                     <ul class="foo_ul">
-                                        <li><a href="#">Concept for audio conversion</a></li>
-                                        <li><a href="#">Technique used in Audio conversion</a></li>
+                                        <li><a href="pac.html">Concept for audio conversion</a></li>
+                                        <li><a href="techa.html">Technique used in Audio conversion</a></li>
 
                                     </ul>
                                 </ul>
@@ -331,7 +338,8 @@
             <!--<script src="js/jquery.min.js" type="text/javascript"></script>-->
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <script src="js/customscript.min.js" type="text/javascript"></script>
-            <script type="text/javascript">
+            
+	    <script type="text/javascript">
                 $("#myButton").click(function() {
 
                     $('input[type="text"]').each(function() {
@@ -542,6 +550,73 @@
                     });
                 });
             </script>
+
+		
+
+
+
+
+		<!-- Adding Firebase credentials-->
+
+		<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+		
+		
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBw7cNXPJecoFsdajpe47jMMJSQIOZUv74",
+		    authDomain: "xenon-ascent-235209.firebaseapp.com",
+		    databaseURL: "https://xenon-ascent-235209.firebaseio.com",
+		    projectId: "xenon-ascent-235209",
+		    storageBucket: "xenon-ascent-235209.appspot.com",
+		    messagingSenderId: "939235519555"
+		  };
+		  firebase.initializeApp(config);
+
+		
+
+		// For downloading the file.......................................................
+		function downloadFile(){
+			var storageRef = firebase.storage().ref();
+			var fileKey = document.getElementById("convertInput");
+			var starsRef = storageRef.child('www.youtube.com/image.JPG');
+
+			// Get the download URL
+			starsRef.getDownloadURL().then(function(url) {
+			  // Insert url into an <img> tag to "download"
+				var img = document.getElementById('myimg');
+				img.src = url;
+			}).catch(function(error) {
+
+			  // A full list of error codes is available at
+			  // https://firebase.google.com/docs/storage/web/handle-errors
+			  switch (error.code) {
+			    case 'storage/object-not-found':
+			      console.log('File not found');
+			      break;
+
+			    case 'storage/unauthorized':
+			      // User doesn't have permission to access the object
+				console.log('user dont have permission');
+			      break;
+
+			    case 'storage/canceled':
+			      // User canceled the upload
+				console.log('user canceled the upload');
+			      break;
+
+
+			    case 'storage/unknown':
+			      // Unknown error occurred, inspect the server response
+				console.log('unknown error');
+			      break;
+			  }
+			});
+
+		}
+			
+		</script>
     </body>
 
 
